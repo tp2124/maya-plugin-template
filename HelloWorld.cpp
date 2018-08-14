@@ -4,6 +4,6 @@
 DeclareSimpleCommand(HelloWorld, "Autodesk", "2017");
 MStatus HelloWorld::doIt(const MArgList&)
 {
-    std::cout << "Hello Worldasdfasdf\n" << std::endl;
+    std::cout << "Hello World\n" << std::endl;
     return MS::kSuccess;
 }
